@@ -1,0 +1,11 @@
+version: '3'
+services:
+  docker_rancher:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 8005:80
+    volumes:
+      - ./src:/var/www/html
