@@ -7,7 +7,7 @@
 <body>
     <h1>I'm in a Docker container</h1>
 
-    <p>PHP ENV test</p>
+    <2>PHP ENV test</h2>
     <?php 
         echo 'PHP current version: ';
         echo phpversion ();
