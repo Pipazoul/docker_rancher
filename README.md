@@ -13,6 +13,12 @@ A simple repo to test the github CI and Docker hub integration
 - I will use those variable names **DOCKER_USERNAME** and **DOCKER_PASSWORD**
 
 
+Add a new action in .github/worflows
+
+Create a release
+
+The action will be launched
+
 
 Guides Used :
 
